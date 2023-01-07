@@ -110,11 +110,21 @@ nav li{
     border: 1px solid wheat;
     color: orange; 
 }
-.call-now-section img{
+.call-now-section{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(255, 136, 0) , yellow);
+    margin-bottom: 5%;
+    margin-left: 50px;
+    width: 1200px;
+    height: 300px;
+    
+}
+/* .call-now-section img{
     height: 300px;
     width: 800px;
     padding-left: 10px;
-}
+} */
 .call-now-text-section{
     top: 275%;
     position: absolute;
@@ -130,6 +140,7 @@ nav li{
     padding-left: 10px;
     height: 400px;
     padding-top: 10px;
+    
     
 }
 .footer-icon{
